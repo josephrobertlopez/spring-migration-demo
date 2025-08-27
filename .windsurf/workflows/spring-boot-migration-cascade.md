@@ -1,3 +1,8 @@
+---
+description: Spring boot 2 -> 3 migrat
+auto_execution_mode: 1
+---
+
 # Spring Boot 2 → 3 Migration Cascade Workflow
 
 ## 🎯 Migration Goal & Philosophy
