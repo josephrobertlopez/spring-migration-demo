@@ -1,15 +1,15 @@
-# GitHub Copilot Instructions - Spring Boot 3 Migration (Day 1)
+# GitHub Copilot Instructions - Spring Boot 3 Migration
 
 ## Project Context
 
-This is a demo repository for Prompt Engineering Bootcamp - **Day 1: Industry Standards**
+This is a demo repository for **Prompt Engineering Bootcamp** - Day 1 & Day 2
 
 **Current State:**
 - Spring Boot 3.2.0 (migrated)
 - Java 17
 - Jakarta EE namespace (jakarta.*)
 
-**Purpose:** Learn foundational prompt engineering patterns through practical Spring Boot migration
+**Purpose:** Learn prompt engineering patterns (foundational & advanced) through practical Spring Boot migration
 
 ## Migration Standards
 
@@ -92,24 +92,39 @@ private UserService userService;  // Field injection
 - Alter API endpoint URLs
 - Remove error handling
 
-## Decision Documentation
+## Workshop Materials
 
-See `demos/session-1-industry-standards/adr/` for architecture decisions.
-
-**Example usage:**
-```
-"Follow ADR 0001, migrate UserController to Spring Boot 3 patterns"
-```
-
-## Day 1 Learning Materials
+### Day 1: Industry Standards (Foundational Patterns)
 
 Workshop demo files in `demos/session-1-industry-standards/`:
 - **ADR example:** Shows decision documentation
 - **5-file workflow:** Demonstrates Persona, Few-shot, Template, Chain-of-Thought patterns
 - **README:** How to use these materials
 
+**Example usage:**
+```
+"Follow ADR 0001, migrate UserController to Spring Boot 3 patterns"
+```
+
+### Day 2: Advanced Patterns (Orchestration)
+
+Workshop demo files in `demos/session-2-advanced-patterns/`:
+- **spec/ folder:** knowledge-base.md, specification.md, implementation-plan.md
+- **prompts/ folder:** 5-file workflow (alternative structure)
+- **ReAct Pattern:** Think→Act→Observe reasoning cycles
+- **Tree of Thoughts:** Multiple solution path evaluation
+- **Meta-prompting:** Orchestrating specialized prompts
+- **README:** How to use these advanced materials
+
+**Focus:** Combining multiple patterns for complex workflows
+- Multi-component migrations
+- Architectural decision-making
+- Structured problem-solving
+- Audit trail creation
+
 ## Related Resources
 
 - Workshop repo: https://github.com/josephrobertlopez/prompt-engineering-bootcamp
 - Spring Boot 3 Migration Guide: https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Migration-Guide
-- Day 2 materials: Check `demo-day-2` branch for advanced patterns
+- ReAct paper: https://arxiv.org/abs/2210.03629
+- Tree of Thoughts paper: https://arxiv.org/abs/2305.10601
